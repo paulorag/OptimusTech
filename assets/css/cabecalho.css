@@ -1,0 +1,30 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+.about-us {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-us span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.about-us h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.about-us p {
+    color: var(--text-color);
+    max-width: 50%;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5rem;
+}
