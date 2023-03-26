@@ -1,8 +1,3 @@
-:root {
-    --text-color: #667085;
-    --main-color: #8E2424;
-}
-
 .about-us {
     padding: 7rem 0;
     display: flex;
@@ -19,6 +14,7 @@
 .about-us h1 {
     font-size: 2em;
     font-weight: 600;
+    color: var(--title-color);
 }
 
 .about-us p {
