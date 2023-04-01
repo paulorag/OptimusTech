@@ -1,12 +1,10 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
-    --bg-color: rgba(142, 36, 36, 0.05);
     --title-color: #101828;
 }
-
 
 * {
     margin: 0;
@@ -18,11 +16,4 @@
 body {
     width: 100%;
     height: 100vh;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
