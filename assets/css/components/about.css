@@ -24,3 +24,9 @@
     text-align: center;
     line-height: 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .about-us h1{
+        font-size: 1.5em;
+    }
+}
